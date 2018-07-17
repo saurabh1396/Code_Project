@@ -32,8 +32,8 @@ char tempArray[] = g.toCharArray();
     for(int i=0;i<l;i++){
       int k=lr.replace(str,n);
       kr=kr+ str.charAt(k);
-      str= lr.remove(str,k);
-      //l=l-1;
+      //str= lr.remove(str,k);
+      l=l-1;
     }
     System.out.println(kr);
   }

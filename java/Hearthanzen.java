@@ -15,7 +15,7 @@ char tempArray[] = g.toCharArray();
      int pos= g.indexOf(chtr);
 
      str= swap(str, k, pos+k+1);
-     k++;
+    // k++;
      return str;
   //  return pos ;
   }
