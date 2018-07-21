@@ -12,17 +12,27 @@ class capillaryq1{
     Scanner scan = new Scanner(System.in);
     //Capillaryq1 q1 = new Capillaryq1();
     int m = scan.nextInt();
-    //int n = scan.nextInt();
-  //  int [][]arr = new int[m][n];
-    //for(int i = 0; i<m; i++ )
+    int n = scan.nextInt();
+    int []arr = new int[n];
+    for(int i = 0; i<m; i++ )
     {
+    //  ctr  = n-1;
       //for(int j = 0 ; j<n; j++){
-         s  = scan.nextLine();
+        //  arr[j] = scan.nextInt();
+       s=scan.nextLine();
         val = Integer.parseInt(s,2);
         System.out.print(val);
       //}
+      //for(int j = 0 ; j<n; j++){
+       //sum = sum+ arr[j]*Math.pow(2,ctr);
+       //ctr--;
     //  System.out.println();
-    }
+    //}
+    //if(sum>max)
+  //  { max = sum;
+      //index = i;
+    //}
+    //sum=0;
     /*for(int i = 0; i<m; i++ ){
       ctr = n-1;
       for(int j = 0 ; j<n; j++){
@@ -33,8 +43,8 @@ class capillaryq1{
       index = i;
     }
     sum=0;
+*/
 }
 System.out.print(index+1);
-
-*/  }
+ }
 }
